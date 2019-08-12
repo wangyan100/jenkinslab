@@ -8,3 +8,6 @@ docker-compose down # delete service
 
 jenkins password 
 c7fc78f999bb4e36af106d31ea60c098
+
+docker exec -ti jenkins bash  # enter jenkins docker image with bash shell
+docker exec -it -u root jenkins /bin/bash
